@@ -75,7 +75,13 @@ const Home = () => {
                 <img src={SurferImage} alt="dive-image" className='bg-cover w-full h-full object-cover' />
                 </div>
             </section>
-            <footer className='bg-[#23233b]'>Footer</footer>
+            <footer className='bg-[#23233b] rounded-xl flex flex-col gap-7 items-center py-7'>
+            <div className='text-2xl font-bold text-white'>VoteWise</div>
+                <div>
+
+                </div>
+                <div className='text-xl font-semibold text-white'>Bada Jesutobi 2024 All Rights Reserved</div>
+            </footer>
         </div>
     )
 }
