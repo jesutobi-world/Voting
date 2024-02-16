@@ -13,8 +13,8 @@ import { faTwitter as fabTwitter, faLinkedin as fabLinkedin } from '@fortawesome
 
 const Home = () => {
     return (
-        <div className='lg:w-screen max-w-[1440px] h-auto flex flex-col gap-5 lg:px-24 overflow-hidden'>
-            <nav className='w-full  h-[80px] flex items-center justify-between px-4 fixed bg-white'>
+        <div className='w-[95vw] lg:w-screen max-w-[1440px] h-auto flex flex-col gap-5 overflow-hidden lg:px-24 '>
+            <nav className='h-[80px] flex items-center justify-between px-4 fixed right-0 lg:px-24 bg-white w-full'>
                 <div className='text-xl lg:text-2xl font-bold text-[#23233b]'>VoteWise</div>
                 <div className='flex gap-4 lg:gap-10'>
                     <Link to="/login" className='text-lg bg-blue-700 w-[100px] h-[40px] flex items-center justify-center rounded-xl text-white'>
@@ -94,7 +94,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className='w-full p-4 h-auto lg:h-[300px] lg:px-10 shado-xl bg-[#ebebeb] rounded-none lg:rounded-xl mt-12 flex flex-col lg:flex-row justify-between items-center '>
+            <section className='w-full p-4 h-auto lg:h-[300px] lg:px-10 shadow-xl bg-[#ebebeb] rounded-none lg:rounded-xl mt-12 flex flex-col lg:flex-row justify-between items-center '>
                 <div className='flex flex-col gap-5 py-10 items-center lg:items-start'>
                     <h2 className='text-[#23233b] text-3xl font-semibold'>Ready to dive in?</h2>
                     <p className='text-lg text-[#2c4268]'>An electric voting experience awaits you</p>
