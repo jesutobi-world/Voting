@@ -5,7 +5,7 @@ import SurferImage from '/SurferImage.svg';
 import ResponsiveImage from '/ResponsiveImage.svg';
 import SecurityImage from '/SecurityImage.svg';
 import AnalysisImage from '/AnalysisImage.svg';
-import RealTimeImage from '/RealTimeImage.svg'; 
+import RealTimeImage from '/RealTimeImage.svg';
 import VerificationImage from '/VerificationImage.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -104,21 +104,21 @@ const Home = () => {
                     <img src={SurferImage} alt="dive-image" className='bg-cover w-full h-full object-cover' />
                 </div>
             </section>
-            <footer className='bg-[#23233b] flex flex-col gap-10 items-center py-7'>
+            <footer className='bg-[#23233b] flex flex-col gap-10 items-center py-7 w-full'>
                 <div className='text-2xl font-bold text-[#ebebeb]'>VoteWise</div>
                 <div className='flex gap-10'>
-                <a href="#" className='text-[#ebebeb] text-3xl'>
-                <FontAwesomeIcon icon={fabTwitter} />
-                </a>
-                <a href="#" className='text-[#ebebeb] text-3xl'>
-                <FontAwesomeIcon icon={faEnvelope} />
-                </a>
-                <a href="#" className='text-[#ebebeb] text-3xl'>
-                <FontAwesomeIcon icon={fabLinkedin} />
-                </a>
-                <a href="#" className='text-[#ebebeb] text-3xl'>
-                <FontAwesomeIcon icon={faPhone} />
-                </a>
+                    <a href="#" className='text-[#ebebeb] text-3xl'>
+                        <FontAwesomeIcon icon={fabTwitter} />
+                    </a>
+                    <a href="#" className='text-[#ebebeb] text-3xl'>
+                        <FontAwesomeIcon icon={faEnvelope} />
+                    </a>
+                    <a href="#" className='text-[#ebebeb] text-3xl'>
+                        <FontAwesomeIcon icon={fabLinkedin} />
+                    </a>
+                    <a href="#" className='text-[#ebebeb] text-3xl'>
+                        <FontAwesomeIcon icon={faPhone} />
+                    </a>
                 </div>
                 <div className='text-lg font-medium text-[#ebebeb]'>Bada Jesutobi 2024 All Rights Reserved</div>
             </footer>
