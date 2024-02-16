@@ -13,7 +13,7 @@ import { faTwitter as fabTwitter, faLinkedin as fabLinkedin } from '@fortawesome
 
 const Home = () => {
     return (
-        <div className='w-[95vw] lg:w-screen max-w-[1440px] h-auto flex flex-col gap-5 overflow-hidden lg:px-24 '>
+        <div className='lg:w-screen max-w-[1440px] h-auto flex flex-col gap-5 overflow-hidden lg:px-24 items-center '>
             <nav className='h-[80px] flex items-center justify-between px-4 fixed right-0 lg:px-24 bg-white w-full'>
                 <div className='text-xl lg:text-2xl font-bold text-[#23233b]'>VoteWise</div>
                 <div className='flex gap-4 lg:gap-10'>
