@@ -47,7 +47,7 @@ const Home = () => {
                             <p className=''>Create your polls with easy steps.</p>
                         </div>
                     </div>
-                    <div className='col-span-1 row-span-1 bg-white shadow-lg shadow-[#23233b] rounded-xl flex flex-col-reverse'>
+                    <div className='col-span-1 row-span-1 bg-white shadow-md shadow-[#23233b] rounded-xl flex flex-col-reverse'>
                         <div className='w-full flex h-1/2 justify-end'>
                             <img src={AnalysisImage} alt="" className='' />
                         </div>
@@ -56,7 +56,7 @@ const Home = () => {
                             <p className=''>Our integrated data analysis algorithm helps to make your results visually appealing.</p>
                         </div>
                     </div>
-                    <div className='col-span-1 row-span-1 bg-white shadow-lg shadow-[#23233b] rounded-xl flex flex-col-reverse'>
+                    <div className='col-span-1 row-span-1 bg-white shadow-md shadow-[#23233b] rounded-xl flex flex-col-reverse'>
                         <div className='w-full flex h-1/2 justify-end pr-4'>
                             <img src={RealTimeImage} alt="" className='' />
                         </div>
@@ -83,7 +83,7 @@ const Home = () => {
                             <p className=''>Our system prioritizes data safety. Your poll results are safe with us.</p>
                         </div>
                     </div>
-                    <div className='col-span-1 row-span-1 bg-white shadow-lg shadow-[#23233b] rounded-xl flex flex-col'>
+                    <div className='col-span-1 row-span-1 bg-white shadow-md shadow-[#23233b] rounded-xl flex flex-col'>
                         <div className='w-full flex h-1/2 justify-start pl-4 pt-4'>
                             <img src={VerificationImage} alt="" className='' />
                         </div>
