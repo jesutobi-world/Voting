@@ -65,7 +65,7 @@ const Login = () => {
             </div>
           </div>
         </div>
-        <div className='w-full h-[300px] lg:h-full lg:w-1/2 bg-blue-700 flex items-center px-5'>
+        <div className='flex items-center w-full h-[400px] lg:h-auto lg:w-1/2 bg-blue-700 px-5'>
         <img src={LoginImage} alt="" className='' />
         </div>
       </div>
