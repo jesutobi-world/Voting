@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 import LoginImage from '/LoginImage.svg';
 const Login = () => {
   return (
-    <div className="bg-[#b4c5e4] h-screen w-screen flex items-center justify-center">
-      <div className="h-[90%] w-[80%] bg-white rounded-xl shadow-md flex overflow-hidden">
-        <div className='flex flex-col gap-5 w-1/2 py-10 px-16'>
+    <div className="bg-[#b4c5e4]  min-h-screen  w-screen flex items-center justify-center p-10">
+      <div className="h-auto w-full lg:h-[90%] lg:w-[80%] bg-white rounded-xl shadow-md flex flex-col-reverse lg:flex-row overflow-hidden">
+        <div className='flex flex-col gap-5 w-full lg:w-1/2 p-5 lg:py-5 lg:px-16'>
           <div className='text-xl lg:text-2xl font-bold text-[#23233b]'>VoteWise</div>
           <div className='w-full'>
             <h1 className='text-2xl font-bold mb-1'>Login in to your account</h1>
@@ -65,7 +65,7 @@ const Login = () => {
             </div>
           </div>
         </div>
-        <div className='w-1/2 bg-blue-700 flex items-center px-5'>
+        <div className='w-full h-[300px] lg:h-full lg:w-1/2 bg-blue-700 flex items-center px-5'>
           <img src={LoginImage} alt="" />
         </div>
       </div>
