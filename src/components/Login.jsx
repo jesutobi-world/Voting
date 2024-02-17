@@ -10,23 +10,23 @@ const Login = () => {
         <div className='flex flex-col gap-5 w-1/2 py-10 px-16'>
           <div className='text-xl lg:text-2xl font-bold text-[#23233b]'>VoteWise</div>
           <div className='w-full'>
-            <h1>Login in to your account</h1>
-            <p>Welcome back! Select method to log in:</p>
+            <h1 className='text-2xl font-bold mb-1'>Login in to your account</h1>
+            <p className='text-md text-gray-400'>Welcome back! Select method to log in:</p>
           </div>
-          <div className='w-full flex'>
-            <a href="#">
+          <div className='w-full flex gap-4'>
+            <a href="#" className='flex gap-2 items-center border border-solid border-gray-400 flex-1 h-[45px] justify-center rounded-lg'>
               <FontAwesomeIcon icon={fabGoogle} className='' />
-              <p>Google</p>
+              <p className='font-semibold'>Google</p>
             </a>
-            <a href="#">
+            <a href="#" className='flex gap-2 items-center border border-solid border-gray-400 flex-1 h-[45px] justify-center rounded-lg'>
               <FontAwesomeIcon icon={fabFacebook} className='text-blue-700' />
-              <p>Facebook</p>
+              <p className='font-semibold'>Facebook</p>
             </a>
           </div>
-          <div className='flex gap-[1px] w-full'>
-            <div className='w-auto h-[1px] bg-gray-400'></div>
+          <div className='flex gap-2 w-full items-center'>
+            <hr className='w-auto h-[1px] bg-gray-300 flex-1'/>
             <div>or continue with email</div>
-            <div className='w-auto h-[1px] bg-gray-400'></div>
+            <hr className='w-auto h-[1px] bg-gray-300 flex-1'/>
           </div>
           <form action="#" className='w-full'>
             <div className='w-full h-[45px] rounded-lg flex border border-solid border-gray-400 items-center px-4 gap-4 overflow-hidden mb-4'>
@@ -45,19 +45,21 @@ const Login = () => {
                 <FontAwesomeIcon icon={faEyeSlash} className='text-gray-400 text-lg' />
               </div>
             </div>
-            <div className='flex justify-between'>
+            <div className='flex justify-between mb-4'>
               <div className='flex gap-1'>
-                <input type="checkbox" name="" id="" />
-                <p>Remember me</p>
+                <input type="checkbox" name="" id="" className='bg-blue-700 text-blue-700' />
+                <p className='text-gray-500'>Remember me</p>
               </div>
               <div>
-                <Link to="/reset">Forgot Password?</Link>
+                <Link to="/reset" className='text-blue-700 '>Forgot Password?</Link>
               </div>
             </div>
-            <button type="submit" className='w-full h-[50px] bg-blue-400 rounded-lg'>Login</button>
+            <button  className='w-full h-[45px] rounded-lg border border-solid border-blue-700 text-white text-xl font-semibold'
+            style={{backgroundColor: '#1e40af',}}
+            type='submit'>Login</button>
           </form>
           <div className='flex justify-center gap-1'>
-            <div>Don't have an account?</div>
+            <div>Don{"'"}t have an account?</div>
             <div>
             <Link to="/signup">Create an account</Link>
             </div>
