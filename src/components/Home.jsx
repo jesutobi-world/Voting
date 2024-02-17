@@ -98,7 +98,7 @@ const Home = () => {
                 <div className='flex flex-col gap-5 py-10 items-center lg:items-start'>
                     <h2 className='text-[#23233b] text-3xl font-semibold'>Ready to dive in?</h2>
                     <p className='text-lg text-[#2c4268]'>An electric voting experience awaits you</p>
-                    <Link className='bg-blue-700 w-[100px] h-[40px] flex items-center justify-center text-white rounded-xl'>Register</Link>
+                    <Link to='/signup' className='bg-blue-700 w-[100px] h-[40px] flex items-center justify-center text-white rounded-xl'>Register</Link>
                 </div>
                 <div className='w-full lg:w-1/2 h-full'>
                     <img src={SurferImage} alt="dive-image" className='bg-cover w-full h-full object-cover' />
