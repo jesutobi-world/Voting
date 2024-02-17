@@ -13,7 +13,7 @@ const Login = () => {
             <h1 className='text-2xl font-bold mb-1'>Login in to your account</h1>
             <p className='text-md text-gray-400'>Welcome back! Select method to log in:</p>
           </div>
-          <div className='w-full flex gap-4'>
+          <div className='w-full flex gap-4 flex-col lg:flex-row'>
             <a href="#" className='flex gap-2 items-center border border-solid border-gray-400 flex-1 h-[45px] justify-center rounded-lg'>
               <FontAwesomeIcon icon={fabGoogle} className='' />
               <p className='font-semibold'>Google</p>
