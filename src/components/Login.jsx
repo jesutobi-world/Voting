@@ -7,18 +7,18 @@ const Login = () => {
   return (
     <div className="bg-[#b4c5e4] h-auto  w-screen flex items-center justify-center p-5 lg:p-10">
       <div className="h-auto w-full lg:w-[80%] bg-white rounded-xl shadow-md flex flex-col-reverse lg:flex-row overflow-hidden">
-        <div className='flex flex-col gap-5 w-full lg:w-1/2 p-5 lg:py-5 lg:px-16'>
+        <div className='flex flex-col gap-5 w-full lg:w-1/2 px-5 py-10 lg:py-5 lg:px-16'>
           <div className='text-xl lg:text-2xl font-bold text-[#23233b]'>VoteWise</div>
           <div className='w-full'>
             <h1 className='text-2xl font-bold mb-1'>Login in to your account</h1>
             <p className='text-md text-gray-400'>Welcome back! Select method to log in:</p>
           </div>
           <div className='w-full flex gap-4 flex-col lg:flex-row'>
-            <a href="#" className='flex gap-2 items-center border border-solid border-gray-400 flex-1 h-[45px] justify-center rounded-lg'>
+            <a href="#" className='flex gap-2 items-center border border-solid border-gray-400 flex-1 py-3 justify-center rounded-lg'>
               <FontAwesomeIcon icon={fabGoogle} className='' />
               <p className='font-semibold'>Google</p>
             </a>
-            <a href="#" className='flex gap-2 items-center border border-solid border-gray-400 flex-1 h-[45px] justify-center rounded-lg'>
+            <a href="#" className='flex gap-2 items-center border border-solid border-gray-400 flex-1 py-3 justify-center rounded-lg'>
               <FontAwesomeIcon icon={fabFacebook} className='text-blue-700' />
               <p className='font-semibold'>Facebook</p>
             </a>
