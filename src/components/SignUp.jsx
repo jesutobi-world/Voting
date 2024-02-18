@@ -22,13 +22,13 @@ const SignUp = () => {
               </div>
               <input type="text" placeholder='Matric Number' className='h-full flex-1 outline-none bg-transparent border-none text-[#3c3744] text-lg flex items-center font-medium' />
             </div> */}
-            <div className='w-full h-[55px] lg:h-[45px] rounded-lg flex border border-solid border-gray-400 items-center px-4 gap-4 overflow-hidden mb-4'>
+            <div className='w-full h-[65px] lg:h-[55px] rounded-lg flex border border-solid border-gray-400 items-center px-4 gap-4 overflow-hidden mb-4'>
               <div className='h-full flex items-center'>
                 <FontAwesomeIcon icon={faEnvelope} className='text-gray-400 text-lg' />
               </div>
               <input type="text" placeholder='Email' className='h-full flex-1 outline-none bg-transparent border-none text-[#3c3744] text-lg flex items-center font-medium' />
             </div>
-            <div className='w-full h-[55px] lg:h-[45px] rounded-lg flex border border-solid border-gray-400 items-center px-4 gap-4 overflow-hidden mb-4'>
+            <div className='w-full h-[65px] lg:h-[55px] rounded-lg flex border border-solid border-gray-400 items-center px-4 gap-4 overflow-hidden mb-4'>
               <div className='h-full flex items-center'>
                 <FontAwesomeIcon icon={faLock} className='text-gray-400 text-lg' />
               </div>
