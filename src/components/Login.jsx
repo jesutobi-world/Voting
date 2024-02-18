@@ -62,7 +62,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <div className='flex items-center justify-center w-full h-[400px] lg:h-full lg:w-1/2 bg-blue-700 p-10 flex-1'>
+      <div className='flex items-center justify-center w-full min-h-[400px] lg:h-full lg:w-1/2 bg-blue-700 p-10 flex-1'>
           <img src={LoginImage} alt="" className='' />
         </div>
     </div>
