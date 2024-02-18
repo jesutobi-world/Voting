@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 import LoginImage from '/LoginImage.svg';
 const Login = () => {
   return (
-    <div className="bg-[#b4c5e4] min-h-auto  w-screen flex items-center justify-center ">
-      <div className="w-full min-h-full bg-white  shadow-md flex flex-col-reverse lg:flex-row overflow-hidden">
-        <div className='flex flex-col gap-5 w-full lg:w-1/2  px-5 py-10 lg:py-10 lg:px-16'>
-          <div className='text-xl lg:text-2xl font-bold text-[#23233b]'>VoteWise</div>
+    <div className="min-h-screen lg:h-screen w-screen flex flex-col-reverse lg:flex-row items-center justify-center">
+      <div className='flex w-full lg:w-1/2 h-full items-center justify-center px-5 py-10'>
+        <div className='flex gap-5 flex-col w-full lg:w-[500px]'>
+          <div className='text-xl lg:text-2xl font-bold text-[#23233b] w-full'>VoteWise</div>
           <div className='w-full'>
             <h1 className='text-2xl font-bold mb-1'>Login in to your account</h1>
             <div className='flex'>
@@ -16,13 +16,13 @@ const Login = () => {
             </div>
           </div>
           <form action="#" className='w-full'>
-            <div className='w-full h-[55px] lg:h-[45px] rounded-lg flex border border-solid border-gray-400 items-center px-4 gap-4 overflow-hidden mb-4'>
+            <div className='w-full h-[65px] lg:h-[55px] rounded-lg flex border border-solid border-gray-400 items-center px-4 gap-4 overflow-hidden mb-4'>
               <div className='h-full flex items-center'>
                 <FontAwesomeIcon icon={faEnvelope} className='text-gray-400 text-lg' />
               </div>
               <input type="text" placeholder='Email' className='h-full flex-1 outline-none bg-transparent border-none text-[#3c3744] text-lg flex items-center font-medium' />
             </div>
-            <div className='w-full h-[55px] lg:h-[45px] rounded-lg flex border border-solid border-gray-400 items-center px-4 gap-4 overflow-hidden mb-4'>
+            <div className='w-full h-[65px] lg:h-[55px] rounded-lg flex border border-solid border-gray-400 items-center px-4 gap-4 overflow-hidden mb-4'>
               <div className='h-full flex items-center'>
                 <FontAwesomeIcon icon={faLock} className='text-gray-400 text-lg' />
               </div>
@@ -61,10 +61,10 @@ const Login = () => {
             </a>
           </div>
         </div>
-        <div className='flex items-center w-full h-[400px] lg:h-auto lg:w-1/2 bg-blue-700 px-5'>
+      </div>
+      <div className='flex items-center w-full h-[400px] lg:h-full lg:w-1/2 bg-blue-700 px-5'>
           <img src={LoginImage} alt="" className='' />
         </div>
-      </div>
     </div>
   )
 }
