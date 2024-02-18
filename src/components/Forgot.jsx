@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Forgot = () => {
     return (
         <div className="min-h-screen lg:h-screen w-screen flex flex-col-reverse lg:flex-row-reverse items-center justify-center">
-            <div className='flex w-full lg:w-1/2 h-full items-center justify-center px-5 py-10 flex-1'>
+            <div className='flex w-full lg:w-1/2 h-full items-center justify-center px-5 py-10'>
                 <div className='flex gap-5 flex-col w-full lg:w-[500px]'>
                     <div className='text-xl lg:text-2xl font-bold text-[#23233b] w-full'>VoteWise</div>
                     <div className='w-full'>
@@ -23,13 +23,13 @@ const Forgot = () => {
                             <input type="text" placeholder='Email' className='h-full flex-1 outline-none bg-transparent border-none text-[#3c3744] text-lg flex items-center font-medium' />
                         </div>
 
-                        <button className='w-full py-3 rounded-lg border border-solid border-blue-700 text-white text-xl font-semibold'
+                        <button className='w-full h-[65px] lg:h-[55px] rounded-lg border border-solid border-blue-700 text-white text-xl font-semibold'
                             style={{ backgroundColor: 'rgb(29 78 216)', }}
                             type='submit'>Send Code</button>
                     </form>
                 </div>
             </div>
-            <div className='flex items-center justify-center w-full h-[400px] lg:h-full lg:w-1/2 bg-blue-700 p-10'>
+            <div className='flex items-center justify-center w-full h-[400px] lg:h-full lg:w-1/2 bg-blue-700 p-10 flex-1'>
                 <img src={ForgotImage} alt="" className='' />
             </div>
         </div>
