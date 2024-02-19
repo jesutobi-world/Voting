@@ -3,7 +3,7 @@ import ChangedImage from '/ChangedImage.svg';
 
 const Changed = () => {
   return (
-    <div className="h-screen lg:h-screen w-screen flex flex-col-reverse lg:flex-row-reverse items-center justify-center relative">
+    <div className="min-h-screen lg:h-screen w-screen flex flex-col-reverse lg:flex-row-reverse items-center justify-center relative">
         <div className='flex w-full h-auto lg:w-1/2 items-center justify-center px-5 py-10'>
             <div className='flex gap-5 flex-col w-full lg:w-[500px]'>
                 <div className='text-xl lg:text-2xl font-bold text-[#23233b] w-full'>VoteWise</div>
@@ -19,8 +19,8 @@ const Changed = () => {
                     </Link>
             </div>
         </div>
-        <div className='flex items-center justify-center w-full min-h-[300px] lg:h-full lg:w-1/2 bg-blue-700 p-10 flex-grow'>
-            <img src={ChangedImage} alt="" className='object-cover w-[90%] h-full' />
+        <div className='flex items-center justify-center w-full min-h-[300px] lg:h-full lg:w-1/2 bg-blue-700 p-10 grow'>
+            <img src={ChangedImage} alt="" className='object-cover w-[90%]' />
         </div>
     </div>
 );
