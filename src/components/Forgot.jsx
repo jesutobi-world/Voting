@@ -33,6 +33,9 @@ const Forgot = () => {
                             </button>
                         </Link>
                     </form>
+                    <div className='flex justify-center pt-4'>
+                        <div>Remember password? <Link to="/login" className='text-blue-700 pl-[2px]'>Login</Link></div>
+                    </div>
                 </div>
             </div>
             <div className='flex items-center justify-center w-full min-h-[300px] lg:h-full lg:w-1/2 bg-blue-700 p-10 flex-1'>
