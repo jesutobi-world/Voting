@@ -20,7 +20,7 @@ const Changed = () => {
             </div>
         </div>
         <div className='flex items-center justify-center w-full min-h-[300px] lg:h-full lg:w-1/2 bg-blue-700 p-10 flex-grow'>
-            <img src={ChangedImage} alt="" className='object-cover w-[90%]' />
+            <img src={ChangedImage} alt="" className='object-cover w-[90%] h-full' />
         </div>
     </div>
 );
