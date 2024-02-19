@@ -1,11 +1,14 @@
 import ForgotImage from '/ForgotImage.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 const Forgot = () => {
     return (
-        <div className="min-h-screen lg:h-screen w-screen flex flex-col-reverse lg:flex-row-reverse items-center justify-center">
+        <div className="min-h-screen lg:h-screen w-screen flex flex-col-reverse lg:flex-row-reverse items-center justify-center relative">
+                <Link to="/login" className=' w-10 h-10 absolute top-4 left-4 lg:hidden flex items-center justify-center'>
+                    <FontAwesomeIcon icon={faArrowLeft} className='text-white text-2xl' />
+                </Link>
             <div className='flex w-full lg:w-1/2 h-full items-center justify-center px-5 py-10'>
                 <div className='flex gap-5 flex-col w-full lg:w-[500px]'>
                     <div className='text-xl lg:text-2xl font-bold text-[#23233b] w-full'>VoteWise</div>
